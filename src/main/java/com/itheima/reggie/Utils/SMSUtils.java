@@ -30,7 +30,7 @@ public class SMSUtils {
 			String[] params = {param};
 			// 实例化一个认证对象，入参需要传入腾讯云账户secretId，secretKey,此处还需注意密钥对的保密
 			// 密钥可前往https://console.cloud.tencent.com/cam/capi网站进行获取
-			Credential cred = new Credential("AKIDjQAqPuKdsfKqDQ7mEUceRNQGVkvzwgHl", "Sj05xeAfBhCZtjgXFw8JlAUfibLzWXVM");
+			Credential cred = new Credential("AKIDq", "RzKOgstoobNs89y");
 			// 实例化一个http选项，可选的，没有特殊需求可以跳过
 			HttpProfile httpProfile = new HttpProfile();
 			httpProfile.setEndpoint("sms.tencentcloudapi.com");
